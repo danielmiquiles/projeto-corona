@@ -20,6 +20,7 @@ export class RegionComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.getDataRegion();
   }
 
   getDataRegion() {
